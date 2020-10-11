@@ -12,4 +12,4 @@ while True:
         else:
             print("Ошибка. Не правильно ввели месяц")
     except ValueError:
-        print("Ошибка! Вы вели не число")
+        print("Ошибка! Вы ввели не число")
