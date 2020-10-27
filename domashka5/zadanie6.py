@@ -1,7 +1,7 @@
 def parsing_file():
     try:
         result = {}
-        with open("text6.txt", "r", encoding="utf-") as lib:
+        with open("text6.txt", "r", encoding="utf-8") as lib:
             for el in lib.readlines():
                 #result = el.split(" ")
                 isum = 0
